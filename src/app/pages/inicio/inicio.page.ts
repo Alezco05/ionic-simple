@@ -37,6 +37,31 @@ export class InicioPage implements OnInit {
     icon: 'mail',
     name: 'Cards',
     redirectTo: '/cards'
+   },
+   {
+    icon: 'checkbox',
+    name: 'CheckBox',
+    redirectTo: '/check-box'
+   },
+   {
+    icon: 'calendar',
+    name: 'Date Time',
+    redirectTo: '/date-time'
+   },
+   {
+    icon: 'bug',
+    name: 'Ion Fabs',
+    redirectTo: '/fab'
+   },
+   {
+    icon: 'grid',
+    name: 'Grid',
+    redirectTo: '/grid'
+  },
+    {
+     icon: 'infinite',
+     name: 'Infinite Scroll',
+     redirectTo: '/infinite-scroll'
    }
   ];
   constructor() { }
@@ -48,5 +73,5 @@ export class InicioPage implements OnInit {
 interface Compenente {
   icon: string;
   name: string;
-  redirectTo:string;
+  redirectTo: string;
 }

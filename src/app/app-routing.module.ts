@@ -9,7 +9,12 @@ const routes: Routes = [
   { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
   { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
-  { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },
+  { path: 'cards', loadChildren: './pages/cards/cards.module#CardsPageModule' },  { path: 'check-box', loadChildren: './pages/check-box/check-box.module#CheckBoxPageModule' },
+  { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
+  { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
+  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
+
  
 ];
 
