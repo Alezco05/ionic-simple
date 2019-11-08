@@ -77,4 +77,29 @@
     "icon": "megaphone",
     "name": "Modal",
     "redirectTo": "/modal"
+  },
+  {
+    "icon": "tablet-portrait",
+    "name": "Popover",
+    "redirectTo": "/popover"
+  },
+  {
+    "icon": "code-working",
+    "name": "Progess Bar",
+    "redirectTo": "/progess-bar"
+  },
+  {
+    "icon": "arrow-round-down",
+    "name": "Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon": "search",
+    "name": "Search",
+    "redirectTo": "/searchbar"
+  },
+  {
+    "icon": "copy",
+    "name": "Segment",
+    "redirectTo": "/segment"
   }]
