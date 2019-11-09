@@ -102,4 +102,14 @@
     "icon": "copy",
     "name": "Segment",
     "redirectTo": "/segment"
+  },
+  {
+    "icon": "albums",
+    "name": "Slides",
+    "redirectTo": "/slides"
+  },
+  {
+    "icon": "cog",
+    "name": "Tabs",
+    "redirectTo": "/tabs"
   }]
